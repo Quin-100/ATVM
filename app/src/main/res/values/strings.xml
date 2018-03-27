@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">ATVM</string>
+    <string name="action_settings">Saved Tickets</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="western1">Select Station</string>
+    <string name="western2">Churchgate</string>
+    <string name="western3">Marine Lines</string>
+    <string name="western4">Charni Roadle</string>
+    <string name="western5">Grant Road</string>
+    <string name="western6">Mumbai Central</string>
+    <string name="western7">Mahalaxmi</string>
+    <string name="western8">Lower Parel</string>
+    <string name="western9">Elphinstone Road</string>
+    <string name="western10">Dadar</string>
+    <string name="western11">Matunga Road</string>
+    <string name="western12">Mahim</string>
+    <string name="western13">Bandra</string>
+    <string name="western14">Khar Road</string>
+    <string name="western15">Santacruz</string>
+    <string name="western16">Vile Parle</string>
+    <string name="western17">Andheri</string>
+    <string name="western18">Jogeshwari</string>
+    <string name="western19">Goregaon</string>
+    <string name="western20">Malad</string>
+    <string name="western21">Kandivali</string>
+    <string name="western22">Borivali</string>
+    <string name="western23">Dahisar</string>
+    <string name="western24">Mira Road</string>
+    <string name="western25">Bhayandar</string>
+    <string name="western26">Naigaon</string>
+    <string name="western27">Vasai Road</string>
+    <string name="western28">Nala Sopara</string>
+    <string name="western29">Virar</string>
+    <string name="western30">Vaitarna</string>
+    <string name="western31">Saphale</string>
+    <string name="western32">Kelve Road</string>
+    <string name="western33">Palghar</string>
+    <string name="western34">Umroli</string>
+    <string name="western35">Boisar</string>
+    <string name="western36">Vangaon</string>
+    <string name="western37">Dahanu Road</string>
+
+    <string name="central1">Select Station</string>
+    <string name="central2">CSMT</string>
+    <string name="central3">Masjid</string>
+    <string name="central4">Sandhurst Road</string>
+    <string name="central5">Byculla</string>
+    <string name="central6">Chinchpokli</string>
+    <string name="central7">Currey Road</string>
+    <string name="central8">Parel</string>
+    <string name="central9">Dadar</string>
+    <string name="central10">Matunga</string>
+    <string name="central11">Sion</string>
+    <string name="central12">Kurla</string>
+    <string name="central13">Vidyavihar</string>
+    <string name="central14">Ghatkopar</string>
+    <string name="central15">Vikhroli</string>
+    <string name="central16">Kanjurmarg</string>
+    <string name="central17">Bhandup</string>
+    <string name="central18">Nahur</string>
+    <string name="central19">Mulund</string>
+    <string name="central20">Thane</string>
+    <string name="central21">Kalwa</string>
+    <string name="central22">Mumbra</string>
+    <string name="central23">Diwa</string>
+    <string name="central24">Dombivli</string>
+    <string name="central25">Thakurli</string>
+    <string name="central26">Kalyan</string>
+    <string name="central27">Vitthalwadi</string>
+    <string name="central28">Ulhas Nagar</string>
+    <string name="central29">Ambarnath</string>
+    <string name="central30">Badlapur</string>
+    <string name="central31">Vangani</string>
+    <string name="central32">Shelu</string>
+    <string name="central33">Neral</string>
+    <string name="central34">Bhivpuri Road</string>
+    <string name="central35">Karjat</string>
+    <string name="central36">Palasdari</string>
+    <string name="central37">Kelavli</string>
+    <string name="central38">Dolavli</string>
+    <string name="central39">Lowjee</string>
+    <string name="central40">Khopoli</string>
+    <string name="central41">Shahad</string>
+    <string name="central42">Ambivli</string>
+    <string name="central43">Titwala</string>
+    <string name="central44">Khadavli</string>
+    <string name="central45">Vasind</string>
+    <string name="central46">Asangaon</string>
+    <string name="central47">Atgaon</string>
+    <string name="central48">Khardi</string>
+    <string name="central49">Kasara</string>
+
+    <string name="harbour1">Select Station</string>
+    <string name="harbour2">CSMT</string>
+    <string name="harbour3">Masjid</string>
+    <string name="harbour4">Sandhurst Road</string>
+    <string name="harbour5">Dockyard Road</string>
+    <string name="harbour6">Reay Road</string>
+    <string name="harbour7">Cotton Green</string>
+    <string name="harbour8">Sewri</string>
+    <string name="harbour9">Vadala road</string>
+    <string name="harbour10">Kings Circle</string>
+    <string name="harbour11">Mahim</string>
+    <string name="harbour12">Bandra</string>
+    <string name="harbour13">Khar Road</string>
+    <string name="harbour14">Santacruz</string>
+    <string name="harbour15">Vile Parle</string>
+    <string name="harbour16">Andheri</string>
+    <string name="harbour17">GTB Nagar</string>
+    <string name="harbour18">Chunabhatti</string>
+    <string name="harbour19">Kurla</string>
+    <string name="harbour20">Tilak Nagar</string>
+    <string name="harbour21">Chembur</string>
+    <string name="harbour22">Govandi</string>
+    <string name="harbour23">Mankhurd</string>
+    <string name="harbour24">Vashi</string>
+    <string name="harbour25">Sanpada</string>
+    <string name="harbour26">Juinagar</string>
+    <string name="harbour27">Nerul</string>
+    <string name="harbour28">Seawood Darave</string>
+    <string name="harbour29">Belapur CBD</string>
+    <string name="harbour30">Khargar</string>
+    <string name="harbour31">Mansarovar</string>
+    <string name="harbour32">Khandeshwar</string>
+    <string name="harbour33">Panvel</string>
+
+    <string name="adults0">0</string>
+    <string name="adults1">1</string>
+    <string name="adults2">2</string>
+    <string name="adults3">3</string>
+    <string name="adults4">4</string>
+    <string name="adults5">5</string>
+
+    <string name="childs0">0</string>
+    <string name="childs1">1</string>
+    <string name="childs2">2</string>
+    <string name="childs3">3</string>
+    <string name="childs4">4</string>
+    <string name="childs5">5</string>
+
+    <string name="section1">I class</string>
+    <string name="section2">II class</string>
+
+    <string name="type1">Single</string>
+    <string name="type2">Return</string>
+
+    <string name="title_activity_fare">Fare</string>
+
+
+
+</resources>
