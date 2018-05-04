@@ -8,6 +8,7 @@ public class Config {
 
     public static final String SHARED_PREF_NAME = "UserLoginActivity";
 
+    public static final String ID_SHARED_PREF = "id";
     public static final String SO_SHARED_PREF = "source";
     public static final String DE_SHARED_PREF = "destination";
     public static final String AD_SHARED_PREF = "adults";

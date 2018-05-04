@@ -5,7 +5,9 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -18,13 +20,16 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class MainActivity extends AppCompatActivity {
 
     Spinner source,destination,adults,childs,section,type;
     TextView go;
+    String id;
     String[] Stations,Adults,Childs,Section,Type,Temp;
-    ArrayList<String> temp = new ArrayList<>();
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
         section = findViewById(R.id.section);
         type = findViewById(R.id.type);
         go = findViewById(R.id.go);
+
+        RandomString randomString = new RandomString(8, ThreadLocalRandom.current());
+        id = randomString.nextString();
 
         Temp = getResources().getStringArray(R.array.stations);
         Stations = getResources().getStringArray(R.array.stations);
@@ -74,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else {
                     Intent i = new Intent(MainActivity.this,Fare.class);
+                    i.putExtra("Id",id);
                     i.putExtra("So",(String) source.getSelectedItem());
                     i.putExtra("De",(String) destination.getSelectedItem());
                     i.putExtra("Ad",(String) adults.getSelectedItem());
@@ -117,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             final SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
             //Fetching the boolean value form sharedpreferences
+            String ticid = sharedPreferences.getString(Config.ID_SHARED_PREF, "Not Available");
             String so = sharedPreferences.getString(Config.SO_SHARED_PREF, "Not Available");
             String de = sharedPreferences.getString(Config.DE_SHARED_PREF, "Not Available");
             String ad = sharedPreferences.getString(Config.AD_SHARED_PREF, "Not Available");
@@ -126,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
             String fa = sharedPreferences.getString(Config.FA_SHARED_PREF, "Not Available");
 
             Intent i = new Intent(MainActivity.this,Fare.class);
+            i.putExtra("Id",ticid);
             i.putExtra("So",so);
             i.putExtra("De",de);
             i.putExtra("Ad",ad);
